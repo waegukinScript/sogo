@@ -30,18 +30,24 @@ block content
             table.table.table-bordered.table-hover.table-striped
               thead
                 tr
+                  th Name
+                  th Phone Number
                   th Check In Date
                   th Check Out Date
                   th Adults
                   th Children
+                  th Notes
                   th Action
               tbody
                 each event in events
                   tr
+                    td= event.bookName
+                    td= event.phoneNumber
                     td= event.eventDateIn
                     td= event.eventDateOut
                     td= event.adults
                     td= event.children
+                    td= event.notes
                     td
                       form(action= `/event/delete/${event.id}`, method='POST', onsubmit="return('Are you sure you want to delete this');")
                         .form-group

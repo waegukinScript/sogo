@@ -7,10 +7,14 @@ exports.postEvent = (req, res, next) => {
   console.log('Events');
   console.log(obj);
   const event = new Event({
+    bookName:obj.name,
+    phoneNumber: obj.phoneNumber,
+    email: obj.email,
     eventDateIn: obj.eventDateIn,
     eventDateOut: obj.eventDateOut,
     adults: obj.adults,
     children: obj.children,
+    notes:obj.notes
   });
   event.save((err) => {
     if (err) {
