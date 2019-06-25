@@ -1,0 +1,510 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title Sogo Hotel by Colorlib.com
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description', content='')
+    meta(name='keywords', content='')
+    meta(name='author', content='')
+    link(rel='stylesheet', type='text/css', href='//fonts.googleapis.com/css?family=|Roboto+Sans:400,700|Playfair+Display:400,700')
+    link(rel='stylesheet', href='css/bootstrap.min.css')
+    link(rel='stylesheet', href='css/animate.css')
+    link(rel='stylesheet', href='css/owl.carousel.min.css')
+    link(rel='stylesheet', href='css/aos.css')
+    link(rel='stylesheet', href='css/bootstrap-datepicker.css')
+    link(rel='stylesheet', href='css/jquery.timepicker.css')
+    link(rel='stylesheet', href='css/fancybox.min.css')
+    link(rel='stylesheet', href='fonts/ionicons/css/ionicons.min.css')
+    link(rel='stylesheet', href='fonts/fontawesome/css/font-awesome.min.css')
+    // Theme Style
+    link(rel='stylesheet', href='css/style.css')
+  body
+    header.site-header.js-site-header
+      .container-fluid
+        .row.align-items-center
+          .col-6.col-lg-4.site-logo(data-aos='fade')
+            a(href='index.html') Sogo Hotel
+          .col-6.col-lg-8
+            .site-menu-toggle.js-site-menu-toggle(data-aos='fade')
+              span
+              span
+              span
+            // END menu-toggle
+            .site-navbar.js-site-navbar
+              nav(role='navigation')
+                .container
+                  .row.full-height.align-items-center
+                    .col-md-6.mx-auto
+                      ul.list-unstyled.menu
+                        li.active
+                          a(href='index.html') Home
+                        li
+                          a(href='rooms.html') Rooms
+                        li
+                          a(href='about.html') About
+                        li
+                          a(href='events.html') Events
+                        li
+                          a(href='contact.html') Contact
+                        li
+                          a(href='reservation.html') Reservation
+    // END head
+    section.site-hero.overlay(style='background-image: url(images/hero_4.jpg)', data-stellar-background-ratio='0.5')
+      .container
+        .row.site-hero-inner.justify-content-center.align-items-center
+          .col-md-10.text-center(data-aos='fade-up')
+            span.custom-caption.text-uppercase.text-white.d-block.mb-3
+              | Welcome To 5 
+              span.fa.fa-star.text-primary
+              |    Hotel
+            h1.heading A Best Place To Stay
+      a.mouse.smoothscroll(href='#next')
+        .mouse-icon
+          span.mouse-wheel
+    // END section
+    section.section.bg-light.pb-0
+      .container
+        #next.row.check-availabilty
+          .block-32(data-aos='fade-up', data-aos-offset='-200')
+            form(action='#')
+              .row
+                .col-md-6.mb-3.mb-lg-0.col-lg-3
+                  label.font-weight-bold.text-black(for='checkin_date') Check In
+                  .field-icon-wrap
+                    .icon
+                      span.icon-calendar
+                    input#checkin_date.form-control(type='text')
+                .col-md-6.mb-3.mb-lg-0.col-lg-3
+                  label.font-weight-bold.text-black(for='checkout_date') Check Out
+                  .field-icon-wrap
+                    .icon
+                      span.icon-calendar
+                    input#checkout_date.form-control(type='text')
+                .col-md-6.mb-3.mb-md-0.col-lg-3
+                  .row
+                    .col-md-6.mb-3.mb-md-0
+                      label.font-weight-bold.text-black(for='adults') Adults
+                      .field-icon-wrap
+                        .icon
+                          span.ion-ios-arrow-down
+                        select#adults.form-control(name='')
+                          option(value='') 1
+                          option(value='') 2
+                          option(value='') 3
+                          option(value='') 4+
+                    .col-md-6.mb-3.mb-md-0
+                      label.font-weight-bold.text-black(for='children') Children
+                      .field-icon-wrap
+                        .icon
+                          span.ion-ios-arrow-down
+                        select#children.form-control(name='')
+                          option(value='') 1
+                          option(value='') 2
+                          option(value='') 3
+                          option(value='') 4+
+                .col-md-6.col-lg-3.align-self-end
+                  button.btn.btn-primary.btn-block.text-white Check Availabilty
+    section.py-5.bg-light
+      .container
+        .row.align-items-center
+          .col-md-12.col-lg-7.ml-auto.order-lg-2.position-relative.mb-5(data-aos='fade-up')
+            figure.img-absolute
+              img.img-fluid(src='images/food-1.jpg', alt='Image')
+            img.img-fluid.rounded(src='images/img_1.jpg', alt='Image')
+          .col-md-12.col-lg-4.order-lg-1(data-aos='fade-up')
+            h2.heading Welcome!
+            p.mb-4
+              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+            p
+              a.btn.btn-primary.text-white.py-2.mr-3(href='#') Learn More
+              span.mr-3.font-family-serif
+                em or
+              a.text-uppercase.letter-spacing-1(href='https://vimeo.com/channels/staffpicks/93951774', data-fancybox='') See video
+    section.section
+      .container
+        .row.justify-content-center.text-center.mb-5
+          .col-md-7
+            h2.heading(data-aos='fade-up') Rooms & Suites
+            p(data-aos='fade-up', data-aos-delay='100')
+              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+        .row
+          .col-md-6.col-lg-4(data-aos='fade-up')
+            a.room(href='#')
+              figure.img-wrap
+                img.img-fluid.mb-3(src='images/img_1.jpg', alt='Free website template')
+              .p-3.text-center.room-info
+                h2 Single Room
+                span.text-uppercase.letter-spacing-1 90$ / per night
+          .col-md-6.col-lg-4(data-aos='fade-up')
+            a.room(href='#')
+              figure.img-wrap
+                img.img-fluid.mb-3(src='images/img_2.jpg', alt='Free website template')
+              .p-3.text-center.room-info
+                h2 Family Room
+                span.text-uppercase.letter-spacing-1 120$ / per night
+          .col-md-6.col-lg-4(data-aos='fade-up')
+            a.room(href='#')
+              figure.img-wrap
+                img.img-fluid.mb-3(src='images/img_3.jpg', alt='Free website template')
+              .p-3.text-center.room-info
+                h2 Presidential Room
+                span.text-uppercase.letter-spacing-1 250$ / per night
+    section.section.slider-section.bg-light
+      .container
+        .row.justify-content-center.text-center.mb-5
+          .col-md-7
+            h2.heading(data-aos='fade-up') Photos
+            p(data-aos='fade-up', data-aos-delay='100')
+              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+        .row
+          .col-md-12
+            .home-slider.major-caousel.owl-carousel.mb-5(data-aos='fade-up', data-aos-delay='200')
+              .slider-item
+                a(href='images/slider-1.jpg', data-fancybox='images', data-caption='Caption for this image')
+                  img.img-fluid(src='images/slider-1.jpg', alt='Image placeholder')
+              .slider-item
+                a(href='images/slider-2.jpg', data-fancybox='images', data-caption='Caption for this image')
+                  img.img-fluid(src='images/slider-2.jpg', alt='Image placeholder')
+              .slider-item
+                a(href='images/slider-3.jpg', data-fancybox='images', data-caption='Caption for this image')
+                  img.img-fluid(src='images/slider-3.jpg', alt='Image placeholder')
+              .slider-item
+                a(href='images/slider-4.jpg', data-fancybox='images', data-caption='Caption for this image')
+                  img.img-fluid(src='images/slider-4.jpg', alt='Image placeholder')
+              .slider-item
+                a(href='images/slider-5.jpg', data-fancybox='images', data-caption='Caption for this image')
+                  img.img-fluid(src='images/slider-5.jpg', alt='Image placeholder')
+              .slider-item
+                a(href='images/slider-6.jpg', data-fancybox='images', data-caption='Caption for this image')
+                  img.img-fluid(src='images/slider-6.jpg', alt='Image placeholder')
+              .slider-item
+                a(href='images/slider-7.jpg', data-fancybox='images', data-caption='Caption for this image')
+                  img.img-fluid(src='images/slider-7.jpg', alt='Image placeholder')
+            // END slider
+            // END section
+            section.section.bg-image.overlay(style="background-image: url('images/hero_3.jpg');")
+              .container
+                .row.justify-content-center.text-center.mb-5
+                  .col-md-7
+                    h2.heading.text-white(data-aos='fade') Our Restaurant Menu
+                    p.text-white(data-aos='fade', data-aos-delay='100')
+                      | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                .food-menu-tabs(data-aos='fade')
+                  ul#myTab.nav.nav-tabs.mb-5(role='tablist')
+                    li.nav-item
+                      a#mains-tab.nav-link.active.letter-spacing-2(data-toggle='tab', href='#mains', role='tab', aria-controls='mains', aria-selected='true') Mains
+                    li.nav-item
+                      a#desserts-tab.nav-link.letter-spacing-2(data-toggle='tab', href='#desserts', role='tab', aria-controls='desserts', aria-selected='false') Desserts
+                    li.nav-item
+                      a#drinks-tab.nav-link.letter-spacing-2(data-toggle='tab', href='#drinks', role='tab', aria-controls='drinks', aria-selected='false') Drinks
+                  #myTabContent.tab-content.py-5
+                    #mains.tab-pane.fade.show.active.text-left(role='tabpanel', aria-labelledby='mains-tab')
+                      .row
+                        .col-md-6
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $20.00
+                            h3.text-white
+                              a.text-white(href='#') Murgh Tikka Masala
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $35.00
+                            h3.text-white
+                              a.text-white(href='#') Fish Moilee
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $15.00
+                            h3.text-white
+                              a.text-white(href='#') Safed Gosht
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                        .col-md-6
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $10.00
+                            h3.text-white
+                              a.text-white(href='#') French Toast Combo
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $8.35
+                            h3.text-white
+                              a.text-white(href='#') Vegie Omelet
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $22.00
+                            h3.text-white
+                              a.text-white(href='#') Chorizo & Egg Omelet
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    // .tab-pane
+                    #desserts.tab-pane.fade.text-left(role='tabpanel', aria-labelledby='desserts-tab')
+                      .row
+                        .col-md-6
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $11.00
+                            h3.text-white
+                              a.text-white(href='#') Banana Split
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $72.00
+                            h3.text-white
+                              a.text-white(href='#') Sticky Toffee Pudding
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $26.00
+                            h3.text-white
+                              a.text-white(href='#') Pecan
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                        .col-md-6
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $42.00
+                            h3.text-white
+                              a.text-white(href='#') Apple Strudel
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $7.35
+                            h3.text-white
+                              a.text-white(href='#') Pancakes
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $22.00
+                            h3.text-white
+                              a.text-white(href='#') Ice Cream Sundae
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    // .tab-pane
+                    #drinks.tab-pane.fade.text-left(role='tabpanel', aria-labelledby='drinks-tab')
+                      .row
+                        .col-md-6
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $32.00
+                            h3.text-white
+                              a.text-white(href='#') Spring Water
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $14.00
+                            h3.text-white
+                              a.text-white(href='#') Coke, Diet Coke, Coke Zero
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $93.00
+                            h3.text-white
+                              a.text-white(href='#') Orange Fanta
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                        .col-md-6
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $18.00
+                            h3.text-white
+                              a.text-white(href='#') Lemonade, Lemon Squash
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $38.35
+                            h3.text-white
+                              a.text-white(href='#') Sparkling Mineral Water
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                          .food-menu.mb-5
+                            span.d-block.text-primary.h4.mb-3 $69.00
+                            h3.text-white
+                              a.text-white(href='#') Lemon, Lime & Bitters
+                            p.text-white.text-opacity-7
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    // .tab-pane
+                    // END section
+                    section.section.testimonial-section
+                      .container
+                        .row.justify-content-center.text-center.mb-5
+                          .col-md-7
+                            h2.heading(data-aos='fade-up') People Says
+                        .row
+                          .js-carousel-2.owl-carousel.mb-5(data-aos='fade-up', data-aos-delay='200')
+                            .testimonial.text-center.slider-item
+                              .author-image.mb-3
+                                img.rounded-circle.mx-auto(src='images/person_1.jpg', alt='Image placeholder')
+                              blockquote
+                                p
+                                  | “A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.”
+                              p
+                                em — Jean Smith
+                            .testimonial.text-center.slider-item
+                              .author-image.mb-3
+                                img.rounded-circle.mx-auto(src='images/person_2.jpg', alt='Image placeholder')
+                              blockquote
+                                p
+                                  | “Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.”
+                              p
+                                em — John Doe
+                            .testimonial.text-center.slider-item
+                              .author-image.mb-3
+                                img.rounded-circle.mx-auto(src='images/person_3.jpg', alt='Image placeholder')
+                              blockquote
+                                p
+                                  | “When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.”
+                              p
+                                em — John Doe
+                            .testimonial.text-center.slider-item
+                              .author-image.mb-3
+                                img.rounded-circle.mx-auto(src='images/person_1.jpg', alt='Image placeholder')
+                              blockquote
+                                p
+                                  | “A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.”
+                              p
+                                em — Jean Smith
+                            .testimonial.text-center.slider-item
+                              .author-image.mb-3
+                                img.rounded-circle.mx-auto(src='images/person_2.jpg', alt='Image placeholder')
+                              blockquote
+                                p
+                                  | “Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.”
+                              p
+                                em — John Doe
+                            .testimonial.text-center.slider-item
+                              .author-image.mb-3
+                                img.rounded-circle.mx-auto(src='images/person_3.jpg', alt='Image placeholder')
+                              blockquote
+                                p
+                                  | “When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.”
+                              p
+                                em — John Doe
+                          // END slider
+                    section.section.blog-post-entry.bg-light
+                      .container
+                        .row.justify-content-center.text-center.mb-5
+                          .col-md-7
+                            h2.heading(data-aos='fade-up') Events
+                            p(data-aos='fade-up')
+                              | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                        .row
+                          .col-lg-4.col-md-6.col-sm-6.col-12.post(data-aos='fade-up', data-aos-delay='100')
+                            .media.media-custom.d-block.mb-4.h-100
+                              a.mb-4.d-block(href='#')
+                                img.img-fluid(src='images/img_1.jpg', alt='Image placeholder')
+                              .media-body
+                                span.meta-post February 26, 2018
+                                h2.mt-0.mb-3
+                                  a(href='#') Travel Hacks to Make Your Flight More Comfortable
+                                p
+                                  | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                          .col-lg-4.col-md-6.col-sm-6.col-12.post(data-aos='fade-up', data-aos-delay='200')
+                            .media.media-custom.d-block.mb-4.h-100
+                              a.mb-4.d-block(href='#')
+                                img.img-fluid(src='images/img_2.jpg', alt='Image placeholder')
+                              .media-body
+                                span.meta-post February 26, 2018
+                                h2.mt-0.mb-3
+                                  a(href='#') 5 Job Types That Aallow You To Earn As You Travel The World
+                                p
+                                  | Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                          .col-lg-4.col-md-6.col-sm-6.col-12.post(data-aos='fade-up', data-aos-delay='300')
+                            .media.media-custom.d-block.mb-4.h-100
+                              a.mb-4.d-block(href='#')
+                                img.img-fluid(src='images/img_3.jpg', alt='Image placeholder')
+                              .media-body
+                                span.meta-post February 26, 2018
+                                h2.mt-0.mb-3
+                                  a(href='#') 30 Great Ideas On Gifts For Travelers
+                                p
+                                  | A small river named Duden flows by their place and supplies it with the necessary regelialia. t is a paradisematic country, in which roasted parts of sentences.
+                    section.section.bg-image.overlay(style="background-image: url('images/hero_4.jpg');")
+                      .container
+                        .row.align-items-center
+                          .col-12.col-md-6.text-center.mb-4.mb-md-0.text-md-left(data-aos='fade-up')
+                            h2.text-white.font-weight-bold A Best Place To Stay. Reserve Now!
+                          .col-12.col-md-6.text-center.text-md-right(data-aos='fade-up', data-aos-delay='200')
+                            a.btn.btn-outline-white-primary.py-3.text-white.px-5(href='reservation.html') Reserve Now
+                    footer.section.footer-section
+                      .container
+                        .row.mb-4
+                          .col-md-3.mb-5
+                            ul.list-unstyled.link
+                              li
+                                a(href='#') About Us
+                              li
+                                a(href='#') Terms & Conditions
+                              li
+                                a(href='#') Privacy Policy
+                              li
+                                a(href='#') Rooms
+                          .col-md-3.mb-5
+                            ul.list-unstyled.link
+                              li
+                                a(href='#') The Rooms & Suites
+                              li
+                                a(href='#') About Us
+                              li
+                                a(href='#') Contact Us
+                              li
+                                a(href='#') Restaurant
+                          .col-md-3.mb-5.pr-md-5.contact-info
+                            // <li>198 West 21th Street, <br> Suite 721 New York NY 10016</li>
+                            p
+                              span.d-block
+                                span.ion-ios-location.h5.mr-3.text-primary
+                                | Address:
+                              span
+                                | 198 West 21th Street, 
+                                br
+                                |  Suite 721 New York NY 10016
+                            p
+                              span.d-block
+                                span.ion-ios-telephone.h5.mr-3.text-primary
+                                | Phone:
+                              span  (+1) 435 3533
+                            p
+                              span.d-block
+                                span.ion-ios-email.h5.mr-3.text-primary
+                                | Email:
+                              span  info@domain.com
+                          .col-md-3.mb-5
+                            p Sign up for our newsletter
+                            form.footer-newsletter(action='#')
+                              .form-group
+                                input.form-control(type='email', placeholder='Email...')
+                                button.btn(type='submit')
+                                  span.fa.fa-paper-plane
+                        .row.pt-5
+                          p.col-md-6.text-left
+                            // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+                            | Copyright ©
+                            script.
+                              document.write(new Date().getFullYear());
+                            |  All rights reserved | This template is made with 
+                            i.icon-heart-o(aria-hidden='true')
+                            |  by 
+                            a(href='https://colorlib.com', target='_blank') Colorlib
+                            // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+                          p.col-md-6.text-right.social
+                            a(href='#')
+                              span.fa.fa-tripadvisor
+                            a(href='#')
+                              span.fa.fa-facebook
+                            a(href='#')
+                              span.fa.fa-twitter
+                            a(href='#')
+                              span.fa.fa-linkedin
+                            a(href='#')
+                              span.fa.fa-vimeo
+                    script(src='js/jquery-3.3.1.min.js')
+                    script(src='js/jquery-migrate-3.0.1.min.js')
+                    script(src='js/popper.min.js')
+                    script(src='js/bootstrap.min.js')
+                    script(src='js/owl.carousel.min.js')
+                    script(src='js/jquery.stellar.min.js')
+                    script(src='js/jquery.fancybox.min.js')
+                    script(src='js/aos.js')
+                    script(src='js/bootstrap-datepicker.js')
+                    script(src='js/jquery.timepicker.min.js')
+                    script(src='js/main.js')
